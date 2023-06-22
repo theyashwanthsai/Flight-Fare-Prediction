@@ -133,7 +133,7 @@ with st.form("Flight_prediction_form"):
         'Jet Airways Business', 'Vistara Premium economy',
         'Trujet']
     airline_choice = st.selectbox('Which Airline?', airlines)
-    departure_date = st.date_input('Departure date', today)
+    departure_date = st.date_input('Select a date', today)
     # departure_time = st.time_input('Departure time', datetime.time(8, 45))
     departure_time = datetime.time(8,45)
     arrival_date = departure_date
